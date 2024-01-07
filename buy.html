@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon"type="image/png" href="https://raw.githubusercontent.com/chilehero2023/chilehero.github.io/main/smugglinglogo2.png"/>
+	<title>Compra tu canción</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+</head>
+<body class="p-3 mb-2 bg-dark text-white">
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html"><img src="https://raw.githubusercontent.com/chilehero2023/chilehero.github.io/main/smugglinglogo2.png"class="img-fluid" alt="..."width="40" height="40"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      		<span class="navbar-toggler-icon"></span>
+      		</button>
+      		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+      			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      				<li class="nav-item">
+      					<a class="nav-link active" href="charts.html"aria-current="page">Charts</a>
+      				</li>
+      				<li class="nav-item">
+						<a class="nav-link" href="#">Compra tu canción</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="cursor: not-allowed">No disponible</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.chilehero.cl">Chile Hero</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="row">
+		<div class="col-xs-12 col-xl-6">
+			<div class="card bg-dark text-white">
+				<h5 class="card-title" style="text-align: center;">Gratis(*)</h5>
+				<div class="card-body bg-dark text-white">
+					<div class="card-text">
+						<p>- El chart NO debe superar los 3 minutos<br>
+						   - El chart NO puede tener más de 1 instrumento<br>
+						- Tu pedido NO tendrá prioridad<br>
+						- Solo puedes pedir un chart a la vez (Ten en cuenta, que si me hablas de alguna multicuenta, serás vetado)</p>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-xl-6">
+			<div class="card bg-dark text-white">
+				<h5 class="card-title"style="text-align: center;">De Paga desde 10 dolares(*)</h5>
+				<div class="card-body bg-dark text-white">
+					<div class="card-text">
+						<p>- El chart NO debe superar los 5 minutos, se aumenta 2 dolares por cada minuto adicional,<i> es decir si la canción dura 6 minutos, el precio seria de 7 dolares</i> <br>
+						   - El chart NO puede tener más de 1 instrumento, por otro instrumento adicional son 3 dolares adicionales<br>
+						   - Depende de la complijidad de la canción, puede subir un 2% más del precio base<br>
+						   - En caso de que la canción dure menos de 3 minutos, el precio se reduce la mitad<br>
+						- Tu pedido SÍ tendrá prioridad</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p>(*)<br>
+	1. Soy libre de aceptar o no, además de eso: NO ACEPTO PAGO POR ADELANTADO<br>
+	2. Tu escoges en el mensaje si quieres pagar o no</p>
+	<h1 style="text-align:center;">Si quieres tener tu chart, solo contactame al discord "smuggling#3410"</h1>
+	<h3 style="text-align:center;">Aqui pondré la lista de pedidos</h3>
+	<div class="sticky-xl-top">
+		<table class="table table-dark tablapedido table-striped table-bordered align-middle"id="tablapedido">
+            <thead>
+            	<tr>
+	            	<th>Artista</th>
+	            	<th>Canción</th>
+	            	<th>Estado</th>
+	            	<th>Pedido por</th>
+	            	<th>De pago?</th>
+	            </tr>
+	        </thead>
+	        <tbody>
+	        	<tr>
+	        		<td>T-Max - Kim Hyun-joong</td>
+	        		<td>Something happened to my heart</td>
+	        		<td>En curso</td>
+	        		<td>Lucyernaga_uwu</td>
+	        		<td><img src="imagenes/ticket.png"width="50" height="50"></td>
+	        	</tr>
+	        </tbody>
+	    </table>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js">
+    </script>
+	<script>
+        $(document).ready(function () {
+            $('#tablapedido').DataTable({
+                language: {
+                    processing: "Tratamiento en curso...",
+                    search: "Buscar&nbsp;:",
+                    lengthMenu: "Agrupar de _MENU_ items",
+                    info: "Mostrando del item _START_ al _END_ de un total de _TOTAL_ items",
+                    infoEmpty: "No existen datos.",
+                    infoFiltered: "(filtrado de _MAX_ elementos en total)",
+                    infoPostFix: "",
+                    loadingRecords: "Cargando...",
+                    zeroRecords: "No se encontraron datos con tu busqueda",
+                    emptyTable: "No hay datos disponibles en la tabla.",
+                    paginate: {
+                        first: "Primero",
+                        previous: "Anterior",
+                        next: "Siguiente",
+                        last: "Ultimo"
+                    },
+                    aria: {
+                        sortAscending: ": active para ordenar la columna en orden ascendente",
+                        sortDescending: ": active para ordenar la columna en orden descendente"
+                    }
+                },
+                scrollY: 400,
+                lengthMenu: [ [-1], ["Todos"] ],
+            });
+        });
+    </script>
+
+</body>
+</html>
