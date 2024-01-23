@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <style type="text/css">
+	.text{
+		text-align: center;
+	}
 	.contenedor {
-		width: 145px;
-	    height: 40px;
+		width: 105px;
+	    height: 105px;
 	    margin: auto;
 	    border: 2px solid;
 	    display: flex;
 	    align-items: center;
 	    justify-content: center;
 	    text-align: center;
-	    padding: 10px;
-	}
-	.contadorcanciones{
-		font-family: arial;
+	    padding: 10px	    
 	}
 	.contenedor2{
 		text-align: center;
 	}
+	.numerocanciones{
+		font-family: Digital_Dismay;
+		font-size: 30px;
+	}
+	@font-face {
+    font-family: "Digital_Dismay";
+    src: url("fonts/Digital_Dismay.otf");
+  	}
 </style>
 <html lang="es">
 <head>
@@ -54,8 +62,12 @@
 		</div>
 	</nav>
 	<div class="contenedor">
-		<div class="contadorcanciones">
-			<p class="textbox">Canciones:66</p>
+		<div class="text">
+			<p>Canciones<br>
+			<div class="numerocanciones">
+				67
+			</p>
+			</div>
 		</div>
 	</div>
 	<br>
@@ -64,6 +76,7 @@
 			<button class="btn btn-primary" title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Canciones Añadidas</button>
 			<div id="spoiler" style="display:none;width: 500px;height: 500px;border: 1px solid;margin: 50px auto;padding: 10px;">
 				<p style="text-align: left;">
+				23/01/2024: Tears for Fears - Woman in Chains<br>
 				22/01/2024: Avril Lavigne - The Best Damn Thing<br>
 				22/01/2024: Citizen Soldier - Buried Alive<br>
 				22/01/2024: Dai - You<br>
@@ -694,6 +707,16 @@
             		<td><a href="https://drive.google.com/file/d/1-YpsiasH188lDDIes0UbP8JaKKLBS0du/view?usp=sharing">Descargar</a>
             	</tr>
             	<tr>
+            		<td><center><img src="imagenes/seedslove.jpg" width="50" height="50"></center></td>
+            		<td>Tears for Fears</td>
+            		<td>Woman in Chains<br>(Ft. Oleta Adams)</td>
+            		<td>New Wave</td>
+            		<td>1989</td>
+            		<td>Sí</td>
+            		<td>Guitarra/<font color="red">Vocals(**)</font></td>
+            		<td><a href="https://drive.google.com/file/d/1HqT5DDnpI4VjLk2cXAfNM4eRGgPZ2Upa/view?usp=sharing">Descargar</a>
+            	</tr>
+            	<tr>
             		<td><center><img src="imagenes/allweknow.jpg" width="50" height="50"></center></td>
             		<td>The Chainsmokers</td>
             		<td>All We Know (feat. Phoebe Ryan)</td>
@@ -767,7 +790,7 @@
         </table>
     </div>
     <p>(*)El Vocal es compatible con YARG, de todas formas igual sigue compatible con Clone Hero.
-    <br><font color="red"> Puede ser que tenga errores, es mi primera vez que hago vocals</font><br>
+    <br><font color="red"> Puede ser que tenga errores, estoy aprendiendo hacer vocals</font><br>
     (**)El Vocal <font color=red>NO</font> lo hice yo, no recuerdo quien lo hizo</p>
     <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
